@@ -1,0 +1,33 @@
+/* h1{
+    font-family:Arimo;
+    font-size: 40px;
+}
+p{
+    /*controls thickness*/
+    font_weight: 100;
+    /*
+    100-thin
+    300-light
+    400-normal
+    700-bold
+    900-extra bold
+}*/
+
+/*short hand propert*/
+/* p{
+    text-align: right;
+}  */
+/* h1{
+    text-decoration: underline;
+}
+ h1 {
+            font-family: 'Arimo', sans-serif;
+            font-size: 40px;
+            text-decoration: underline;
+        }
+
+        p {
+            font-weight: 400;
+            text-align: middle;
+        } */
+       

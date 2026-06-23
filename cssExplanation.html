@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style> 
+       /* Selector */
+        /* internal css */
+        h1{
+             font-style: italic; 
+              color: rgb(16, 24, 141); 
+        }
+       
+        p{   
+             color: rgb(245, 241, 241);
+            background-color: rgb(0, 0, 0); 
+        
+        }
+        /*class selector(group the elements)*/
+        .title{
+            color: aquamarine;
+        }
+                 h1,p,button{
+        
+            color: rgb(34, 133, 172);
+        }
+         /*desendent selectors*/
+        div li{
+            color: rgb(255, 83, 3);
+        }
+        div > li{
+            color: aquamarine;
+        }
+         /*attribute selector*/
+         input[type="text"]{
+            background-color: blueviolet;
+         }
+       
+    
+      
+        
+    </style>
+</head>
+<body>
+    <!-- css can be apply in thry ways -->
+    <!-- 1 inline css -->
+    <!-- 2 internal css -->
+    <!-- 3 External css -->
+     <!-- inline css -->
+    <h1 class="title" >Welcom to Chalapthi</h1>
+    <h1>chalpathi institute of technology</h1>
+    <p > Learn Today Lead Tomorow </p>
+    <p>This is paragraph</p>
+<hr>
+<h1 id="main-heading">cse</h1>
+<p>welcome back</p>
+<button>submit</button>
+<div>
+    <li>hello</li>
+    <section>
+
+    <li>Helloo</li>
+</section>
+</div>
+<label>username:</label>
+<input type="text">
+<label>password</label>
+<input type="password">
+
+</body>
+</html>
+     
+
+    
