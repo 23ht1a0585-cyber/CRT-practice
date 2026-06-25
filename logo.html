@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Focus Wave Logo</title>
+<link rel="stylesheet" href="logo.css">
+<style>
+  body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: radial-gradient(circle at center,#1a1a1a,#000);
+    font-family:Arial, sans-serif;
+  }
+
+  .logo-box{
+    text-align:center;
+    color:white;
+  }
+
+  .title{
+    margin-top:20px;
+    font-size:28px;
+    letter-spacing:3px;
+    opacity:0.8;
+  }
+
+  .sub{
+    font-size:16px;
+    opacity:0.5;
+    margin-top:5px;
+  }
+
+  svg{
+    filter: drop-shadow(0 0 15px rgba(255,255,255,0.2));
+  }
+</style>
+</head>
+
+<body>
+
+<div class="logo-box">
+
+<!-- F + W MONOGRAM LOGO -->
+<svg width="260" height="260" viewBox="0 0 200 200">
+
+  <!-- Circle lens -->
+  <circle cx="100" cy="100" r="80" stroke="white" stroke-width="3" fill="none" opacity="0.3"/>
+
+  <!-- F shape -->
+  <path d="M70 50 L70 150 M70 50 L120 50 M70 95 L110 95"
+        stroke="white" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- W shape merged -->
+  <path d="M85 150 L105 110 L125 150 L145 110 L165 150"
+        stroke="white" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Wave curve -->
+  <path d="M40 120 Q100 170 160 120"
+        stroke="cyan" stroke-width="3" fill="none" opacity="0.7"/>
+
+</svg>
+
+<div class="title">Focus Wave</div>
+<div class="sub">Focus Click Photography</div>
+
+</div>
+
+</body>
+</html>

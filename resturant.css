@@ -1,12 +1,7 @@
+body{
+    background-color: #0fc6df;
 
-
-body {
-    font-family: Arial, sans-serif; 
-    background-color: #f9f9f9;      
-    color: #333333;                 
 }
-
-
 header {
     background-color:skyblue;
     padding-top: 25px;         
@@ -20,30 +15,18 @@ header h1 {
     font-size: 28px;
     margin-bottom: 15px;       
 }
-
-nav a {
-      
-        font-size: 16px;
-}
-nav a:hover{
-    color:white;
-}
-
-
-
-
-.hero {
+.bala {
     text-align: center;
     padding-top: 60px;          
     padding-bottom: 60px;       
     background-color: white;  
 }
-.hero h2 {
+.bala h2 {
     font-size: 36px;
     margin-bottom: 10px;
 }
 
-.hero p {
+.bala p {
     font-size: 16px;
     color: #666666;           
     margin-bottom: 20px;
@@ -54,18 +37,17 @@ nav a:hover{
     background-color: #ff4d4d;  
         color: #ffffff;             
     font-size: 15px;
-    font-weight: bold;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
     border: none;            
-    border-radius: 5px;      
+    border-radius: 10px;      
     cursor: pointer;         
 }
 
 .order-btn:hover {
-    background-color: #e03e3e;
+    background-color: #070303;
 }
 
 .menu-section {
@@ -79,8 +61,7 @@ nav a:hover{
     display: inline-block;      
     margin: 15px;               
     border: 1px solid #e0e0e0;  
-    border-radius: 8px;         
-    overflow: hidden;          
+    border-radius: 8px;                   
     text-align: center;
 }
 
